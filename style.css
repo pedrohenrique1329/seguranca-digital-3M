@@ -92,15 +92,11 @@ body{
 
 .parametro-senha__botao{
 
-}
-.parametro-senha__texto{
-
-}
-
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
     }
+}
 }
 .parametro-senha__botao{
     background-color: var(--fundo-texto);
@@ -108,4 +104,12 @@ body{
     border: 2px solid var(--borda);
     padding: 24px;
     font-size: 24px;
+}
+.parametro-senha__botao{
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
 }
